@@ -28,7 +28,7 @@ $services = mysqli_query($conn, "SELECT * FROM services");
             </label>
         </div>
     </div>
-    
+    <!-- comment -->
     <div class="container service" style="margin-top:50px;max-width:80%;">
         <div class="row">
             <?php while ($row = mysqli_fetch_object($services)) :
